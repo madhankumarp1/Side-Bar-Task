@@ -1,0 +1,129 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 98%;
+    height: 98%;
+    background:#f1f4f9;
+}
+#myDIV {
+    width: 50%;
+    height: 100%;
+    margin: -8px;
+    padding: 5px;
+    /* background-color: bisque; */
+    margin-top: -45px;
+}#mySidenav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    background: rgb(255,255,255);
+    margin: -8px;
+    padding: 5px;
+}
+.dckap.lo {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-link {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: gray;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.totalicon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    align-items: center;
+    color: steelblue;
+}
+.btn1 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border: none;
+    font-size: xx-large;
+    background:#f1f4f9;
+    font-weight: bolder;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+button.closebtn {
+    border: none;
+    font-size: x-large;
+    font-weight: bolder;
+    background: transparent;
+    color: red;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/* .myStyle {
+  
+   
+    display:none;
+    
+
+  } */
+  .dio{
+    position: relative;
+    left: -300px;
+    /* display: none; */
+    transition: 1s;
+}
+.open
+{
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
